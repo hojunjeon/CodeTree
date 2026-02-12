@@ -3,9 +3,9 @@ using namespace std;
 
 int main() {
     // Please write your code here.
-    double a,b;
+    int a,b;
     cin >> a>>b;
-    cout<<a+b<<" "<<(a+b)/2;
+    cout<<a+b<<" "<<double(a+b)/2;
 
     return 0;
 }
