@@ -12,7 +12,7 @@ int main() {
     int cnt = 0;
     for (int i = 0; i < 5; i++){
 
-        if ((s[i][1] == c) || (s[i][2] == c)) {
+        if ((s[i][3] == c) || (s[i][2] == c)) {
             cout << s[i] << endl;
             cnt += 1;
         }
