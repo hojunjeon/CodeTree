@@ -4,9 +4,11 @@ using namespace std;
 
 int main() {
     // Please write your code here.
-    string s1, s2;
-    cin >> s;
-    s2 = s1[0] + "a" + s[2:];
-    cout << s2;
+    string s1;
+    cin >> s1;
+    s1[1] = 'a';
+    s1[s1.length() - 2] = 'a';
+
+    cout << s1;
     return 0;
 }
